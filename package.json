@@ -1,0 +1,226 @@
+{
+  "name": "typing-ipa",
+	"displayName": "Typing IPA",
+	"description": "A keyboard shortcut that enables a context that allows you to type IPA symbols using the Alt key.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:typing-ipa.toggleKeys"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "typing-ipa.toggleKeys",
+				"title": "Typing IPA: Toggle Keys"
+			}
+		],
+		"keybindings": [
+			{
+				"key": "ctrl+alt+l",
+				"command": "typing-ipa.toggleKeys"
+			},
+			{
+				"key": "alt+a j",
+				"command": "type",
+				"args": { "text": "ɑ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+a k",
+				"command": "type",
+				"args": { "text": "æ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+a l",
+				"command": "type",
+				"args": { "text": "ɐ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+b a",
+				"command": "type",
+				"args": { "text": "β" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+b s",
+				"command": "type",
+				"args": { "text": "ɓ"},
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+b d",
+				"command": "type",
+				"args": { "text": "ʙ"},
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+d j",
+				"command": "type",
+				"args": { "text": "ð" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+d k",
+				"command": "type",
+				"args": { "text": "d͡ʒ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+e j",
+				"command": "type",
+				"args": { "text": "ə" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+e k",
+				"command": "type",
+				"args": { "text": "ɛ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+i j",
+				"command": "type",
+				"args": { "text": "ɪ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+i k",
+				"command": "type",
+				"args": { "text": "ɨ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+n j",
+				"command": "type",
+				"args": { "text": "ŋ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+n k",
+				"command": "type",
+				"args": { "text": "ɲ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+o j",
+				"command": "type",
+				"args": { "text": "ɔ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+r j",
+				"command": "type",
+				"args": { "text": "ɾ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+r k",
+				"command": "type",
+				"args": { "text": "ɹ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+s j",
+				"command": "type",
+				"args": { "text": "ʃ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+t j",
+				"command": "type",
+				"args": { "text": "θ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+t k",
+				"command": "type",
+				"args": { "text": "t͡ʃ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+t l",
+				"command": "type",
+				"args": { "text": "t͡s" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+u j",
+				"command": "type",
+				"args": { "text": "ʊ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+v a",
+				"command": "type",
+				"args": { "text": "ʌ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+z j",
+				"command": "type",
+				"args": { "text": "ʒ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+/ a",
+				"command": "type",
+				"args": { "text": "ʔ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+' j",
+				"command": "type",
+				"args": { "text": "ˈ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+' k",
+				"command": "type",
+				"args": { "text": "ˌ" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
+				"key": "alt+f j",
+				"command": "type",
+				"args": { "text": "͜" },
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run package",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"compile-tests": "tsc -p . --outDir out",
+		"watch-tests": "tsc -p . -w --outDir out",
+		"pretest": "yarn run compile-tests && yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"repository": "none",
+	"devDependencies": {
+		"@types/vscode": "^1.63.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@typescript-eslint/eslint-plugin": "^5.9.1",
+		"@typescript-eslint/parser": "^5.9.1",
+		"eslint": "^8.6.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.1.3",
+		"typescript": "^4.5.4",
+		"ts-loader": "^9.2.6",
+		"webpack": "^5.66.0",
+		"webpack-cli": "^4.9.1",
+		"@vscode/test-electron": "^2.0.3"
+	}
+}

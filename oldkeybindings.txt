@@ -1,0 +1,172 @@
+{
+    "key": "ctrl+alt+l",
+    "command": "typing-ipa.toggleKeys"
+},
+{
+    "key": "alt+a alt+j",
+    "command": "type",
+    "args": { "text": "ɑ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+a alt+k",
+    "command": "type",
+    "args": { "text": "æ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+a alt+l",
+    "command": "type",
+    "args": { "text": "ɐ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+b alt+a",
+    "command": "type",
+    "args": { "text": "β" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+b alt+s",
+    "command": "type",
+    "args": { "text": "ɓ"},
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+b alt+d",
+    "command": "type",
+    "args": { "text": "ʙ"},
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+d alt+j",
+    "command": "type",
+    "args": { "text": "ð" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+d alt+k",
+    "command": "type",
+    "args": { "text": "d͡ʒ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+e alt+j",
+    "command": "type",
+    "args": { "text": "ə" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+e alt+k",
+    "command": "type",
+    "args": { "text": "ɛ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+i alt+a",
+    "command": "type",
+    "args": { "text": "ɪ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+i alt+s",
+    "command": "type",
+    "args": { "text": "ɨ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+n alt+a",
+    "command": "type",
+    "args": { "text": "ŋ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+n alt+s",
+    "command": "type",
+    "args": { "text": "ɲ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+o alt+a",
+    "command": "type",
+    "args": { "text": "ɔ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+r alt+j",
+    "command": "type",
+    "args": { "text": "ɾ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+r alt+k",
+    "command": "type",
+    "args": { "text": "ɹ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+s alt+j",
+    "command": "type",
+    "args": { "text": "ʃ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+t alt+j",
+    "command": "type",
+    "args": { "text": "θ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+t alt+k",
+    "command": "type",
+    "args": { "text": "t͡ʃ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+t alt+l",
+    "command": "type",
+    "args": { "text": "t͡s" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+u alt+a",
+    "command": "type",
+    "args": { "text": "ʊ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+v alt+j",
+    "command": "type",
+    "args": { "text": "ʌ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+z alt+j",
+    "command": "type",
+    "args": { "text": "ʒ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+/ alt+a",
+    "command": "type",
+    "args": { "text": "ʔ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+' alt+a",
+    "command": "type",
+    "args": { "text": "ˈ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+' alt+s",
+    "command": "type",
+    "args": { "text": "ˌ" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+},
+{
+    "key": "alt+f alt+j",
+    "command": "type",
+    "args": { "text": "͜" },
+    "when": "typing-ipa.keysEnabled && editorTextFocus"
+}

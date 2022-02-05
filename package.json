@@ -44,19 +44,19 @@
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
-				"key": "alt+b a",
+				"key": "alt+b j",
 				"command": "type",
 				"args": { "text": "β" },
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
-				"key": "alt+b s",
+				"key": "alt+b k",
 				"command": "type",
 				"args": { "text": "ɓ"},
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
-				"key": "alt+b d",
+				"key": "alt+b l",
 				"command": "type",
 				"args": { "text": "ʙ"},
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
@@ -116,6 +116,12 @@
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
+				"key": "alt+p j",
+				"command": "type",
+				"args": {"text": "ɸ"},
+				"when": "typing-ipa.keysEnabled && editorTextFocus"
+			},
+			{
 				"key": "alt+r j",
 				"command": "type",
 				"args": { "text": "ɾ" },
@@ -158,7 +164,7 @@
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
-				"key": "alt+v a",
+				"key": "alt+v j",
 				"command": "type",
 				"args": { "text": "ʌ" },
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
@@ -170,7 +176,7 @@
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
 			},
 			{
-				"key": "alt+/ a",
+				"key": "alt+/ j",
 				"command": "type",
 				"args": { "text": "ʔ" },
 				"when": "typing-ipa.keysEnabled && editorTextFocus"
@@ -206,7 +212,7 @@
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},
-	"repository": "none",
+	"repository": "https://github.com/8BitRobot/Typing-IPA",
 	"devDependencies": {
 		"@types/vscode": "^1.63.0",
 		"@types/glob": "^7.2.0",
